@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Console
+Bundle-SymbolicName: org.eclipse.e4.gogo.console;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Eclipse.org
+Require-Bundle: org.eclipse.swt;bundle-version="3.102.1",
+ org.eclipse.e4.core.di,
+ javax.inject;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: javax.annotation;version="1.1.0",
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.ui.model.application.ui,
+ org.eclipse.e4.ui.model.application.ui.basic,
+ org.eclipse.e4.ui.workbench.modeling

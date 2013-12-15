@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_ShVpIGWQEeOXU8leWlILbg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_4kiTcGWQEeOXU8leWlILbg" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_Jr5dAGWREeOXU8leWlILbg" elementId="org.eclipse.e4.gogo.console.partdescriptor.gogoconsole" label="Gogo Console" allowMultiple="true" closeable="true" contributionURI="bundleclass://org.eclipse.e4.gogo.console/org.eclipse.e4.gogo.console.GogoConsole">
+      <toolbar xmi:id="_bVqJAGWREeOXU8leWlILbg" elementId="org.eclipse.e4.gogo.console.toolbar.0"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_L_KqsGWSEeOXU8leWlILbg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_OlIAUGWSEeOXU8leWlILbg" elementId="org.eclipse.e4.gogo.console.command.opengogoconsole" commandName="Open Gogo Console" description="Open Gogo Console"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__hNN0GWUEeOXU8leWlILbg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="__hNN0mWUEeOXU8leWlILbg" elementId="org.eclipse.e4.gogo.console.handler.opengogoconsole" contributionURI="bundleclass://org.eclipse.e4.gogo.console/org.eclipse.e4.gogo.console.OpenGogoConsole" command="_OlIAUGWSEeOXU8leWlILbg"/>
+  </fragments>
+</fragment:ModelFragments>
